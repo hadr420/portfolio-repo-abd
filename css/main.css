@@ -34,19 +34,27 @@ body {
   color: #fff;
   width: 50%;
 }
-.heading-box__heading > span {
-  color: #eb2f64;
-  font-weight: 200;
-  font-style: italic;
-}
 .heading-box__heading--main {
   font-size: 5rem;
   font-weight: 200;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.heading-box__heading--main > span {
+  color: #000;
+  background-image: linear-gradient(to right, #FF3366, #BA265D);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .heading-box__heading--sub {
   font-size: 2.5rem;
   font-weight: 400;
+}
+.heading-box__heading--sub > span {
+  color: #eb2f64;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .photo-box {

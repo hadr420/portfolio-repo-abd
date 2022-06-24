@@ -5,21 +5,31 @@
     width: 50%;
 
     &__heading {
-        &>span {
-            color: $color-primary;
-            font-weight: 200;
-            font-style: italic;
-        }
 
         &--main {
             font-size: 5rem;
             font-weight: 200;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
+
+            &>span {
+                color: $color-black;
+                background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+                display: inline-block;
+                padding: .5rem 1rem;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
         }
 
         &--sub {
             font-size: 2.5rem;
             font-weight: 400;
+
+            &>span {
+                color: $color-primary;
+                font-weight: 200;
+                font-style: italic;
+            }
         }
     }
 }
@@ -37,3 +47,7 @@
         height: 100%;
     }
 }
+
+
+//////////////////////////////////
+/// ABOUT SECTION
