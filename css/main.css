@@ -54,6 +54,11 @@ body {
   padding: 8rem 0;
 }
 
+.footer {
+  background-color: #000;
+  padding: 8rem 0;
+}
+
 .heading-box {
   color: #fff;
   width: 50%;
@@ -397,4 +402,64 @@ body {
 .btn:focus {
   outline: none;
   animation: pulsate 1s infinite;
+}
+
+.footer__bottom {
+  color: #fff;
+  padding: 0 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__heading {
+  font-size: 3rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2rem;
+}
+.footer__contact-box {
+  width: 20%;
+}
+.footer__contact:link, .footer__contact:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__contact:hover {
+  background-color: #28b485;
+  border: 1px solid #28b485;
+  color: #000;
+}
+.footer__contact-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.footer__location {
+  display: flex;
+}
+.footer__location-item:not(:last-child) {
+  margin-right: 3rem;
+}
+.footer__city {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.footer__shop {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.footer__text {
+  font-size: 1rem;
+  line-height: 1.5;
 }
